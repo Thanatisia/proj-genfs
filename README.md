@@ -111,7 +111,7 @@ via Cloning
 					"type" : "File", 
 					"path" : "{}/main.cpp".format(self.project_name), 
 					"contents" : \ 
-		\"\"\"
+		"""
 		#include <stdio.h>
 		#include <iostream>
 		#include <string>
@@ -125,7 +125,7 @@ via Cloning
 			cout << \"Hello World\" << endl;
 			return 1;
 		}
-		\"\"\"				
+		"""				
 				},
 			],
 			"layout_2" : [
