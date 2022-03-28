@@ -86,6 +86,7 @@ via Cloning
 - Usage: 
 
 	- To generate a simple Python project:
+
 		python proj-genfs --language "python" --project "myProj"
 	
 
