@@ -111,21 +111,21 @@ via Cloning
 					"type" : "File", 
 					"path" : "{}/main.cpp".format(self.project_name), 
 					"contents" : \ 
-"""
-#include <stdio.h>
-#include <iostream>
-#include <string>
-using std::cout;
-using std::cin;
-using std::endl;
-using std::getline;
-using std::to_string;
-int main(int argc, const char *argv[])
-{
-	cout << \"Hello World\" << endl;
-	return 1;
-}
-"""					
+		\"\"\"
+		#include <stdio.h>
+		#include <iostream>
+		#include <string>
+		using std::cout;
+		using std::cin;
+		using std::endl;
+		using std::getline;
+		using std::to_string;
+		int main(int argc, const char *argv[])
+		{
+			cout << \"Hello World\" << endl;
+			return 1;
+		}
+		\"\"\"				
 				},
 			],
 			"layout_2" : [
