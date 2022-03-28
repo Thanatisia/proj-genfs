@@ -61,32 +61,32 @@ via Cloning
 		* --framework : Specify Framework you are working with
 		* --layout : Specify Layout to use; Needs to be used together with '--language'
 		* --platform : Specify Device/Platform you are operating on
-			> Examples:
+			- Examples:
 				* Mobile  | Android, iOS
 				* Desktop | Windows, MacOS, GNU/Linux
 				* Website
 	- Defaults:
-		# No Options Provided
+		- No Options Provided
 			- default layout
-			- 
+			
 
 - Customization:
  
-* The method of customization is primarily done in the layout modules.
+	* The method of customization is primarily done in the layout modules.
 
-* The layout modules are found in 'proj-genfs/src/modules/layouts/[file.py]
-	- all files are categorised with the option '--language'
-	- Ensure that the language you input has a language python module created in the layout modules directory
-		- Recommend to copy the default.py file and paste as '[your-file].py'
+	* The layout modules are found in 'proj-genfs/src/modules/layouts/[file.py]
+		- all files are categorised with the option '--language'
+		- Ensure that the language you input has a language python module created in the layout modules directory
+			- Recommend to copy the default.py file and paste as '[your-file].py'
 
-* Every layout is specified in the 'self.my_layouts' variable in the Layouts() class found in [your-file].py
-	- The syntax is provided in the docfile in the class definition
-	- All you need to change is the layouts inside the 'self.my_layouts' dictionary
+	* Every layout is specified in the 'self.my_layouts' variable in the Layouts() class found in [your-file].py
+		- The syntax is provided in the docfile in the class definition
+		- All you need to change is the layouts inside the 'self.my_layouts' dictionary
 
 - Usage: 
 
-To generate a simple Python project:
-	python proj-genfs --language "python" --project "myProj"
+	- To generate a simple Python project:
+		python proj-genfs --language "python" --project "myProj"
 	
 
 ## Contacts
