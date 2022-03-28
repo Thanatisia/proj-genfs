@@ -7,7 +7,7 @@ A Multi-language, All-in-One Project Workspace Filesystem Structure Generator
 ## Table of Contents
  
 * [Background](#background)
-# [Project Information](#project-information)
+* [Project Information](#project-information)
 * [Obtaining](#obtaining)
 * [Pre-Requisites](#pre-requisites)
 * [Building/Making/Compilation](#building-making-compilation)
