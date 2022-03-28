@@ -129,7 +129,8 @@ via Cloning
 				},
 			],
 			"layout_2" : [
-				{ "alias" : "
+				{ "alias" : "root", "type" : "Folder", "path" : "fldr" },
+				{ "alias" : "new_file", "type" : "File", "path" : "fldr/file.txt", "contents" : "Hello World" },
 			],
 		}
 		```
