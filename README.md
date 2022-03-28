@@ -55,7 +55,7 @@ via Cloning
 
 - Syntax: python proj-genfs {options} <arguments> [--project "project-filename"]
 - Parameters:
-	> options:
+	- options:
 		* --help : Get this help
 		* --language : Specify Language
 		* --framework : Specify Framework you are working with
@@ -65,21 +65,21 @@ via Cloning
 				* Mobile  | Android, iOS
 				* Desktop | Windows, MacOS, GNU/Linux
 				* Website
-	> Defaults:
+	- Defaults:
 		# No Options Provided
 			- default layout
 			- 
 
 - Customization:
  
-The method of customization is primarily done in the layout modules.
+* The method of customization is primarily done in the layout modules.
 
-The layout modules are found in 'proj-genfs/src/modules/layouts/[file.py]
+* The layout modules are found in 'proj-genfs/src/modules/layouts/[file.py]
 	- all files are categorised with the option '--language'
 	- Ensure that the language you input has a language python module created in the layout modules directory
 		- Recommend to copy the default.py file and paste as '[your-file].py'
 
-Every layout is specified in the 'self.my_layouts' variable in the Layouts() class found in [your-file].py
+* Every layout is specified in the 'self.my_layouts' variable in the Layouts() class found in [your-file].py
 	- The syntax is provided in the docfile in the class definition
 	- All you need to change is the layouts inside the 'self.my_layouts' dictionary
 
