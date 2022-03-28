@@ -1,0 +1,3 @@
+# Ignore Python Virtual Environment folder - user to generate it themselves
+# Or create by running the start_venv.{bat|sh} script
+env/
